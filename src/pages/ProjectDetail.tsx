@@ -25,7 +25,7 @@ const ProjectDetail = () => {
       `,
       tags: ['CUDA', 'C++', 'Algorithms', 'Data Structures'],
       githubUrl: 'https://github.com/HadiKhansaa/Bucket_Astar',
-      image: '/placeholder.svg',
+      image: '/lovable-uploads/e3ea510d-a6ba-4b42-9b1b-490dec8f5ae4.png',
       technologies: ['CUDA', 'C++', 'Parallel Computing', 'GPU Programming', 'Pathfinding Algorithms'],
       challenges: [
         'Managing memory transfers between host and device',
@@ -54,7 +54,7 @@ const ProjectDetail = () => {
       `,
       tags: ['C++', 'Python', 'AI', 'Game Development'],
       githubUrl: 'https://github.com/HadiKhansaa/Sombol1.0',
-      image: '/placeholder.svg',
+      image: '/lovable-uploads/d261ebad-de7e-474f-b67e-5f47e64d418f.png',
       technologies: ['C++', 'Python', 'Pygame', 'Minimax Algorithm', 'Alpha-Beta Pruning', 'Bitboards'],
       challenges: [
         'Optimizing the search algorithm to evaluate positions efficiently',
@@ -81,7 +81,7 @@ const ProjectDetail = () => {
       `,
       tags: ['LLMs', 'RAGs', 'Python', 'Pytorch'],
       githubUrl: 'https://github.com/Fadel-Kassab/LLM-A-Star',
-      image: '/placeholder.svg',
+      image: '/lovable-uploads/2cc6ec9f-3efb-49b2-b978-a69cec75290f.png',
       technologies: ['Python', 'PyTorch', 'Large Language Models', 'RAG Systems', 'A* Algorithm'],
       challenges: [
         'Integrating LLM outputs into traditional search algorithms',
@@ -109,7 +109,7 @@ const ProjectDetail = () => {
       `,
       tags: ['Bioinformatics', 'C++', 'Algorithms', 'Data Structures'],
       githubUrl: 'https://github.com/HadiKhansaa/genome-assembler-cpp',
-      image: '/placeholder.svg',
+      image: '/lovable-uploads/47248f82-e13b-4695-ad18-ddbf47c6bfc0.png',
       technologies: ['C++', 'Burrows-Wheeler Transform', 'Bioinformatics', 'String Algorithms', 'Memory Optimization'],
       challenges: [
         'Handling large genomic datasets with limited memory',
@@ -137,7 +137,7 @@ const ProjectDetail = () => {
       `,
       tags: ['Vector Space', 'Probabilistic Models', 'Language Models'],
       githubUrl: 'https://github.com/HadiKhansaa/Clinical-Trials-IR-System',
-      image: '/placeholder.svg',
+      image: '/lovable-uploads/9e86116f-d13a-4ca2-9d08-6344fe7cf0cb.png',
       technologies: ['Information Retrieval', 'Vector Space Models', 'Probabilistic Models', 'Language Models', 'Healthcare'],
       challenges: [
         'Processing and standardizing heterogeneous medical data',
@@ -214,7 +214,7 @@ const ProjectDetail = () => {
               </div>
             </div>
             
-            <div className="bg-card rounded-lg overflow-hidden mb-10 aspect-[16/9] flex items-center justify-center">
+            <div className="bg-card rounded-lg overflow-hidden mb-10 aspect-video flex items-center justify-center">
               <img 
                 src={project.image} 
                 alt={project.title} 

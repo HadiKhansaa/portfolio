@@ -25,6 +25,14 @@ const ProjectCard = ({ project, featured = false }: ProjectProps) => {
         ${featured ? 'flex flex-col' : 'flex flex-col h-full'}
       `}
     >
+      <div className="h-48 overflow-hidden">
+        <img 
+          src={project.image} 
+          alt={project.title}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+      </div>
+      
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-xl font-medium group-hover:text-primary transition-colors">
