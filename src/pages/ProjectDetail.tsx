@@ -136,7 +136,7 @@ const ProjectDetail = () => {
       `,
       tags: ['Vector Space', 'Probabilistic Models', 'Language Models'],
       githubUrl: 'https://github.com/HadiKhansaa/Clinical-Trials-IR-System',
-      image: 'refined-digital-resume/public/lovable-uploads/IRbg.jpg',
+      image: 'lovable-uploads/IRbg.jpg',
       technologies: ['Information Retrieval', 'Vector Space Models', 'Probabilistic Models', 'Language Models', 'Healthcare'],
       challenges: [
         'Processing and standardizing heterogeneous medical data',
