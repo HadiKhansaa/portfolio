@@ -24,7 +24,7 @@ const ProjectDetail = () => {
       `,
       tags: ['CUDA', 'C++', 'Algorithms', 'Data Structures'],
       githubUrl: 'https://github.com/HadiKhansaa/Bucket_Astar',
-      image: 'refined-digital-resume/public/DamaAIbg.jpg',
+      image: 'C:/Users/pc/Desktop/Me/refined-digital-resume/public/DamaAIbg.jpg',
       technologies: ['CUDA', 'C++', 'Parallel Computing', 'GPU Programming', 'Pathfinding Algorithms'],
       challenges: [
         'Managing memory transfers between host and device',
