@@ -108,7 +108,7 @@ const ProjectDetail = () => {
       `,
       tags: ['Bioinformatics', 'C++', 'Algorithms', 'Data Structures'],
       githubUrl: 'https://github.com/HadiKhansaa/genome-assembler-cpp',
-      image: 'lovable-uploads/DNAbg.jpg',
+      image: '/lovable-uploads/DNAbg.jpg',
       technologies: ['C++', 'Burrows-Wheeler Transform', 'Bioinformatics', 'String Algorithms', 'Memory Optimization'],
       challenges: [
         'Handling large genomic datasets with limited memory',
