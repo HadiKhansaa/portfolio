@@ -53,7 +53,7 @@ const ProjectDetail = () => {
       `,
       tags: ['C++', 'Python', 'AI', 'Game Development'],
       githubUrl: 'https://github.com/HadiKhansaa/Sombol1.0',
-      image: '/lovable-uploads/DamaAIbg.jpg',
+      image: '/lovable-uploads/AStarbg.png',
       technologies: ['C++', 'Python', 'Pygame', 'Minimax Algorithm', 'Alpha-Beta Pruning', 'Bitboards'],
       challenges: [
         'Optimizing the search algorithm to evaluate positions efficiently',
@@ -136,7 +136,7 @@ const ProjectDetail = () => {
       `,
       tags: ['Vector Space', 'Probabilistic Models', 'Language Models'],
       githubUrl: 'https://github.com/HadiKhansaa/Clinical-Trials-IR-System',
-      image: 'public/lovable-uploads/IRbg.jpg',
+      image: 'lovable-uploads/IRbg.jpg',
       technologies: ['Information Retrieval', 'Vector Space Models', 'Probabilistic Models', 'Language Models', 'Healthcare'],
       challenges: [
         'Processing and standardizing heterogeneous medical data',
