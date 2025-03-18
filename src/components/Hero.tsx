@@ -2,6 +2,7 @@
 import React from 'react';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Hero = () => {
   return (
@@ -12,62 +13,71 @@ const Hero = () => {
       </div>
 
       <div className="container relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="stagger-animation">
-          <div className="inline-block">
-            <span className="tag mb-4 text-sm font-normal">CS Graduate & Researcher</span>
+        <div className="stagger-animation flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="flex-1">
+            <div className="inline-block">
+              <span className="tag mb-4 text-sm font-normal">CS Graduate & Researcher</span>
+            </div>
+            
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mt-2 mb-4 max-w-4xl">
+              Hadi Al Khansa
+            </h1>
+            
+            <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mb-8">
+              Research Assistant and Graduate Student at AUB, specializing in High-Performance Computing, 
+              GPU Programming, and Machine Learning.
+            </p>
+            
+            <div className="flex flex-wrap gap-4 mb-8">
+              <a 
+                href="https://github.com/HadiKhansaa" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 py-2 px-4 rounded-md bg-secondary hover:bg-secondary/80 transition-colors"
+              >
+                <Github className="h-5 w-5" />
+                <span>GitHub</span>
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/hadi-al-khansa-987115253/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 py-2 px-4 rounded-md bg-secondary hover:bg-secondary/80 transition-colors"
+              >
+                <Linkedin className="h-5 w-5" />
+                <span>LinkedIn</span>
+              </a>
+              <a 
+                href="mailto:hadi.kansa.950@gmail.com" 
+                className="flex items-center gap-2 py-2 px-4 rounded-md bg-secondary hover:bg-secondary/80 transition-colors"
+              >
+                <Mail className="h-5 w-5" />
+                <span>Email</span>
+              </a>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                to="/projects"
+                className="flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                <span>View Projects</span>
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                to="/about"
+                className="flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
+              >
+                <span>About Me</span>
+              </Link>
+            </div>
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mt-2 mb-4 max-w-4xl">
-            Hadi Al Khansa
-          </h1>
-          
-          <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mb-8">
-            Research Assistant and Graduate Student at AUB, specializing in High-Performance Computing, 
-            GPU Programming, and Machine Learning.
-          </p>
-          
-          <div className="flex flex-wrap gap-4 mb-8">
-            <a 
-              href="https://github.com/HadiKhansaa" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 py-2 px-4 rounded-md bg-secondary hover:bg-secondary/80 transition-colors"
-            >
-              <Github className="h-5 w-5" />
-              <span>GitHub</span>
-            </a>
-            <a 
-              href="https://www.linkedin.com/in/hadi-al-khansa-987115253/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 py-2 px-4 rounded-md bg-secondary hover:bg-secondary/80 transition-colors"
-            >
-              <Linkedin className="h-5 w-5" />
-              <span>LinkedIn</span>
-            </a>
-            <a 
-              href="mailto:hadi.kansa.950@gmail.com" 
-              className="flex items-center gap-2 py-2 px-4 rounded-md bg-secondary hover:bg-secondary/80 transition-colors"
-            >
-              <Mail className="h-5 w-5" />
-              <span>Email</span>
-            </a>
-          </div>
-          
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link
-              to="/projects"
-              className="flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
-            >
-              <span>View Projects</span>
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-            <Link
-              to="/about"
-              className="flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
-            >
-              <span>About Me</span>
-            </Link>
+          <div className="order-first md:order-last flex-shrink-0">
+            <Avatar className="h-56 w-56 border-4 border-secondary shadow-lg">
+              <AvatarImage src="/lovable-uploads/ab81e324-afee-49c5-9067-18538d8a9a46.png" alt="Hadi Al Khansa" />
+              <AvatarFallback>HK</AvatarFallback>
+            </Avatar>
           </div>
         </div>
       </div>
