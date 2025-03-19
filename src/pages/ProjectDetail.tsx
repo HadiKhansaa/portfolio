@@ -53,7 +53,7 @@ const ProjectDetail = () => {
       `,
       tags: ['C++', 'Python', 'AI', 'Game Development'],
       githubUrl: 'https://github.com/HadiKhansaa/Sombol1.0',
-      image: '/public/lovable-uploads/AStarbg.png',
+      image: '/public/lovable-uploads/placeholder.svg',
       technologies: ['C++', 'Python', 'Pygame', 'Minimax Algorithm', 'Alpha-Beta Pruning', 'Bitboards'],
       challenges: [
         'Optimizing the search algorithm to evaluate positions efficiently',
